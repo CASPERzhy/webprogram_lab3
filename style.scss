@@ -1,4 +1,4 @@
-// Змінні для кольорів та шрифтів
+// кольори та шрифти
 $font-primary: 'Gotham', Courier, monospace;
 $background-color: #f1fbff;
 $text-color-dark: #000;
@@ -12,7 +12,7 @@ body {
   background: $background-color;
 }
 
-// Міксін для секції з відступами
+// mixin для секції з відступами
 @mixin section-padding($padding: 100px 0) {
   padding: $padding;
 }
@@ -21,7 +21,7 @@ body {
   @include section-padding;
 }
 
-// Стилі для каруселі
+// карусель
 .carousel-item {
   height: 100vh;
 }
@@ -58,7 +58,7 @@ body {
   }
 }
 
-// Стилі для навігації
+// навігація
 .navbar-nav {
   a {
     font-size: 15px;
